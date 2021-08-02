@@ -1,0 +1,26 @@
+{
+  "name": "orangeaffiliate",
+  "version": "1.0.0",
+  "description": "This is an Affiliate Plugin for Wordpress - Built by Josiah Orange",
+  "main": "index.js",
+  "module": "index2.js",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:scripts": "wp-scripts build",
+    "start-build": "wp-scripts start"
+    
+  },
+  "keywords": [
+    "affiliate",
+    "plugin",
+    "wordpress",
+    "orange",
+    "lighting"
+  ],
+  "author": "Josiah Orange",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@wordpress/scripts": "12.1.0"
+  }
+}
